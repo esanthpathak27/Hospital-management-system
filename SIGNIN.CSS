@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #898ea3;
+    background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-jplenio-1103970.jpg&fm=jpg);
+  }
+  
+  .signup-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #7f9e7d00;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(146, 59, 31, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #453B3B;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #453B3B;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 80%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #453B3B;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6F6A6A;
+  }
+  

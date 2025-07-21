@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Changed font to Open Sans */
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background */
+    background-image: linear-gradient(to bottom, #c13232, #c17979); /* Gradient effect */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px; /* Increased padding for better readability */
+    background-color: #fff;
+    border-radius: 10px; /* Increased border radius for a softer look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increased box shadow for a more prominent effect */
+}
+
+.section {
+    margin-bottom: 30px; /* Increased margin for better spacing */
+}
+
+h1, h2 {
+    color: #1781d8; /* Changed text color to a blue shade */
+    font-weight: bold; /* Added bold font weight for headings */
+}
+
+.section h2 {
+    margin-top: 0;
+    font-size: 1.5em; /* Increased font size for better readability */
+    color: #666; /* Kept the same text color for subheadings */
+}
+
+/* Added some additional styles for a more polished look */
+
+a {
+    text-decoration: none;
+    color: #2196F3; /* Changed link color to match the heading color */
+}
+
+a:hover {
+    color: #1976D2; /* Changed hover color to a darker blue shade */
+}
+
+p {
+    font-size: 1.1em; /* Increased font size for better readability */
+    margin-bottom: 20px; /* Added margin for better spacing */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li:before {
+    content: "\2022"; /* Added a bullet point symbol */
+    color: #2196F3; /* Changed bullet point color to match the heading color */
+    font-size: 1.2em;
+    margin-right: 10px;
+}

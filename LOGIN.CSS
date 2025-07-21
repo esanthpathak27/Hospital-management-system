@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url("https://media.istockphoto.com/id/1152675766/photo/blurry-background.webp?b=1&s=170667a&w=0&k=20&c=VhXTKkIhrUEgZnBVw2-qOcRxl-RMRRL2x1fwwvFt4j4=");
+  background-size: cover;
+}
+
+.login-container {
+  opacity: 0.6;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255); /* White background with slight transparency */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0); /* Softer shadow for a more subtle effect */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Dark grey for better readability */
+  font-size: 24px; /* Slightly larger font for better emphasis */
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555; /* Medium grey for labels */
+  font-size: 14px; /* Slightly larger font for labels */
+}
+
+.input-group input {
+  width: 100%; /* Full width input fields */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Green button */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
